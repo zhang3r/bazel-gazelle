@@ -82,6 +82,7 @@ var goKinds = map[string]rule.KindInfo{
 		},
 		ResolveAttrs: map[string]bool{"deps": true},
 	},
+	"yext_protos": {},
 	"go_repository": {
 		MatchAttrs: []string{"importpath"},
 		NonEmptyAttrs: map[string]bool{
